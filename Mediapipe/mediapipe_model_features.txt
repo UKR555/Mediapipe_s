@@ -1,0 +1,24 @@
+# MediaPipe Model Features
+
+mediapipe_hands_example.py
+- Detects: 21 hand landmarks per hand (all 5 fingers, joints, tips)
+
+mediapipe_face_mesh_example.py
+- Detects: 468 facial landmarks (eyes, lips, nose, jaw, etc.)
+- Supports: Multiple faces
+
+mediapipe_holistic_example.py
+- Detects: 33 body pose landmarks, 21 hand landmarks per hand, 468 face mesh landmarks
+- All in one pipeline
+
+mediapipe_face_detection_example.py
+- Detects: Face bounding boxes (no detailed landmarks)
+
+mediapipe_selfie_segmentation_example.py
+- Detects: Person segmentation mask (separates person from background)
+
+mediapipe_all_models_combined.py
+- Detects: Body pose, hands, face mesh, face detection, and segmentation (all combined)
+
+custom_upper_body_points.py
+- Detects: Custom selection of upper body and hand points (as defined in the script)
