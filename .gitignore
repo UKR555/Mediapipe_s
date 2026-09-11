@@ -1,0 +1,61 @@
+# ==========================================
+# Comprehensive Security & Ignore Template
+# ==========================================
+
+# Secrets & Environment Files
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+credentials.json
+client_secret*.json
+service-account*.json
+secrets/
+
+# Node.js & Web
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+.nuxt/
+dist/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+venv/
+.venv/
+env/
+ENV/
+.pytest_cache/
+*.egg-info/
+.mypy_cache/
+
+# Java / Kotlin / Android / Gradle
+target/
+.gradle/
+build/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE & Operating System
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
